@@ -1,45 +1,114 @@
-# Instructions
+# Weather App
 
-Welcome to the Weather App repository! :) You have already achieved your first goal towards learning Python by deciding to join to this workshop! In this course, you are going to learn how to make a proper Python package and REST APIs! A proper Python package is needed to create production applications. Following this course, you will learn the following concepts;
+Welcome to the Weather App repository! By joining this workshop, you are taking your first step towards mastering Python, building REST APIs, and creating production-ready Python packages.
 
-- Web server / HTTP status codes 
+---
+
+## Table of Contents
+
+- [What You'll Learn](#what-youll-learn)
+- [Prerequisites](#prerequisites)
+- [Getting Started](#getting-started)
+- [Usage](#usage)
+- [Troubleshooting](#troubleshooting)
+- [Contact](#contact)
+
+---
+
+## What You'll Learn
+
+- Web servers & HTTP status codes
 - Client-server communication
-- Query string parameter
-- Framework / flask / routes
-- Api / api key & authentication
-- Python packages / requests / requirements.txt
+- Query string parameters
+- Frameworks: Flask & route handling
+- APIs, API keys & authentication
+- Python packaging, `requests` library, and `requirements.txt`
 
+---
 
-# Setup your workspace
-1. First we need to start setting up your workspace. Please follow the instructions below. In case of errors or any questions, do not hesitate to reach out to your mentor :)
-1. Open your command prompt or terminal.
-   1. Windows:
-      1. Open the Start menu or press the Windows key + R.
-      1. Type cmd or cmd.exe in the Run command box.
-      1. Press Enter.
-   1. Mac:
-      1. Click the Launchpad in the Dock, type Terminal in the search field, then click Terminal.
-2. Clone this repository by executing the command below
-   `git clone https://github.com/TechWomenTribe/my_weather_app.git`
-1. Navigate to your project directory.
-   `cd my_weather_app`
-1. Create a virtual environment:   
-    Ps: If you already have a venv directory in your project. You do not need this step.  
-        `python -m venv venv`  
-1. Activate the virtual environment:
-   1. For macOS/Linux: `source venv/bin/activate`
-   1. For Windows: `venv\Scripts\activate`
+## Prerequisites
 
+- Python 3.8 or higher
+- `pip` (Python package manager)
+- Internet connection
 
-### Install Requirements
+---
 
-Execute from the same command line
-`pip install -r requirements.txt`
+## Getting Started
 
-# Create an account for the weather api
-We are going to use this api to create our custom application. So, please follow the steps below :)
-1. Create an account on https://www.weatherapi.com/signup.aspx
-1. After creating an account and logging in, click on "My Account" on the right top corner
-1. Copy the 'API Key' value and save it somewhere in your computer. Do not share your api key with others :)
-1. Don't worry we will explain it during the workshop. Trial is free!
+### 1. Set Up Your Workspace
 
+#### Open Your Terminal
+
+- **macOS:** Open Launchpad, search for Terminal, and open it.
+- **Windows:** Press `Win + R`, type `cmd`, and press Enter.
+
+#### Clone the Repository
+
+```sh
+git clone https://github.com/TechWomenTribe/my_weather_app.git
+cd my_weather_app
+```
+
+#### Create a Virtual Environment
+
+If you don't already have a `venv` directory:
+
+```sh
+python -m venv venv
+```
+
+#### Activate the Virtual Environment
+
+macOS/Linux:
+```sh
+source venv/bin/activate
+```
+
+Windows:
+```sh
+venv\Scripts\activate
+```
+### Install Dependencies
+```sh
+pip install -r requirements.txt
+```
+
+### Get a Weather API Key
+1. Sign up at weatherapi.com.
+2. After logging in, go to "My Account" (top right).
+3. Copy your API key and keep it safe. Do not share your API key.
+4. Don't worry we will explain it during the workshop. Trial is free!
+
+<hr></hr>
+
+## Usage
+### Set your API key as an environment variable:
+```sh
+export WEATHER_API_KEY=your_api_key_here
+```
+### Run the app:
+```sh
+python app.py
+```
+
+### Example request:
+Open your browser or use curl:
+```sh
+curl "http://127.0.0.1:5000/weather?city=London"
+```
+
+<hr></hr>
+
+## Troubleshooting
+- Module not found: Make sure your virtual environment is activated and dependencies are installed.
+- Invalid API key: Double-check your API key and ensure it is set as an environment variable.
+- Port already in use: Stop other apps using port 5000 or change the port in app.py.
+<hr></hr>
+
+## Contact
+For questions or help, open an issue or contact your mentor.
+<hr></hr>
+
+You're now ready to start building!
+Happy coding! 

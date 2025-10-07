@@ -7,16 +7,18 @@ Reads:
     Rendering templates: https://flask.palletsprojects.com/en/2.3.x/quickstart/#rendering-templates
 """
 
-from flask import Flask, render_template
-import requests
 import os
 import emoji
+import requests
 
-app = Flask(__name__, template_folder='template')
+from flask import Flask, render_template
+
+
+app = Flask(__name__, template_folder="template")
 
 api_key = ""  # add your api key here
 city = "Istanbul"
-url = f'http://api.weatherapi.com/v1/current.json?key={api_key}&q={city}]&aqi=no'
+url = f"http://api.weatherapi.com/v1/current.json?key={api_key}&q={city}]&aqi=no"
 
 response = requests.get(url)
 

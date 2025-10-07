@@ -1,16 +1,17 @@
 # TODO Mentors: Explain how do we get the specific information that we need from an API?
 
-import requests
 
-'''
+"""
 Reads:
     What is json? https://www.w3schools.com/whatis/whatis_json.asp
     Tips for the exercise: https://stackoverflow.com/questions/59067671/is-there-a-way-to-easily-handle-json-tree-data-in-python
-'''
+"""
 
-api_key="" # add your api key here
-city="Amsterdam"
-url = f'http://api.weatherapi.com/v1/current.json?key={api_key}&q={city}]&aqi=no'
+import requests
+
+api_key = ""  # add your api key here
+city = "Amsterdam"
+url = f"http://api.weatherapi.com/v1/current.json?key={api_key}&q={city}]&aqi=no"
 
 response = requests.get(url)
 

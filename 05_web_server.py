@@ -14,8 +14,9 @@ app = Flask(__name__)
 
 @app.route("/")
 def welcome_to_my_website():
-        data = "Welcome to my website!"
-        return data
+    data = "Welcome to my website!"
+    return data
+
 
 # TODO TechWomen Exercise 1:
 #       1. Run your Flask API with the command `flask --app 05_web_server.py run --host=0.0.0.0`

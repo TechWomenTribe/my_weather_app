@@ -10,6 +10,10 @@
 ##############################
 
 # TODO Mentors: Explain what is a python package generally and specifically requests & properties
+"""
+Reads:  Reference: https://www.w3schools.com/python/module_requests.asp
+        What is an f string? https://www.datacamp.com/tutorial/python-f-string
+"""
 
 import requests
 

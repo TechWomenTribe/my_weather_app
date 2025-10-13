@@ -14,6 +14,7 @@
 #
 ##############################
 # TODO Mentors: Explain what is PyCharm versus notebook
+# TODO Mentors: This can also be followed via Codespace, explain Codespace
 
 """
  Reads:

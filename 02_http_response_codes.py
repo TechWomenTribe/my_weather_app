@@ -24,11 +24,13 @@
 #
 ##############################
 
-# TODO Mentors: Explain HTTP codes & statuses
+# TODO Mentors: Explain HTTP codes & statuses https://hackernoon.com/http-made-easy-understanding-the-web-client-server-communication-yz783vg3
 
 """
 Reads:
     What are the HTTP codes? https://http.dev/status
+    Drawing for Client-Server HTTP communication: https://hackernoon.com/http-made-easy-understanding-the-web-client-server-communication-yz783vg3
+    What is an f string?:: https://www.datacamp.com/tutorial/python-f-string
 """
 
 import requests

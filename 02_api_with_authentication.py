@@ -15,6 +15,7 @@ Reads:
     What is an API? https://www.postman.com/what-is-an-api/
     What is an API authentication? https://nonamesecurity.com/learn/what-is-api-authentication/#:~:text=API%20authentication%20is%20a%20combination,client%20makes%20an%20API%20call.
     What are query parameters? https://www.abstractapi.com/api-glossary/query-parameters
+    What is an f string?: https://www.datacamp.com/tutorial/python-f-string
 """
 
 import requests

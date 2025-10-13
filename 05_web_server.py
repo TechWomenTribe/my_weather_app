@@ -3,6 +3,7 @@
 """
 Reads:
     What is a web server? https://developer.mozilla.org/en-US/docs/Learn/Common_questions/Web_mechanics/What_is_a_web_server
+    What is a framework in programming? https://www.geeksforgeeks.org/blogs/what-is-a-framework/
     What is Flask? https://pythonbasics.org/what-is-flask-python/
     What is rest API (with nice image)? https://mannhowie.com/rest-api
 """

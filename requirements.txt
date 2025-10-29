@@ -1,3 +1,5 @@
 flask
 requests
 emoji
+anthropic
+groq

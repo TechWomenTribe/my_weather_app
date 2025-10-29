@@ -1,4 +1,5 @@
 # TODO Mentors: Explain what is AI, GenAI, LLM and prompts.
+# NOTE: This should not be implemented using ING Laptops.
 
 """
 Reads:

@@ -7,9 +7,9 @@ Reads:
 
 import requests
 
-api_key="" # add your api key here
-city="Amsterdam"
-url = f'http://api.weatherapi.com/v1/current.json?key={api_key}&q={city}]&aqi=no'
+api_key = ""  # add your api key here
+city = "Amsterdam"
+url = f"http://api.weatherapi.com/v1/current.json?key={api_key}&q={city}]&aqi=no"
 
 response = requests.get(url)
 

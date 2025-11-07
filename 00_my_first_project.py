@@ -17,12 +17,12 @@
 # TODO Mentors: This can also be followed via Codespace, explain Codespace
 
 """
- Reads:
-     What is an IDE? https://www.codecademy.com/article/what-is-an-ide
-     What is PyCharm? https://intellipaat.com/blog/what-is-pycharm/
+Reads:
+    What is an IDE? https://www.codecademy.com/article/what-is-an-ide
+    What is PyCharm? https://intellipaat.com/blog/what-is-pycharm/
 """
 
-text = 'Hi, Bella! This is my first weather app!'
+text = "Hi, Bella! This is my first weather app!"
 
 print(text)
 

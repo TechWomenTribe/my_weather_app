@@ -17,7 +17,7 @@ Reads:  Reference: https://www.w3schools.com/python/module_requests.asp
 
 import requests
 
-url = f'https://www.google.com'
+url = f"https://www.google.com"
 
 response = requests.get(url)
 

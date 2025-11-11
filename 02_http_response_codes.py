@@ -35,7 +35,7 @@ Reads:
 
 import requests
 
-url = f'http://www.google.com'
+url = f"http://www.google.com"
 
 response = requests.get(url)
 

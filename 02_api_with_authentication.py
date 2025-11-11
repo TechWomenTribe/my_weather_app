@@ -20,9 +20,8 @@ Reads:
 
 import requests
 
-api_key="" # Get the api key from your www.weatherapi.com account. If you do not have an api key yet, please see the instructions in README.md
-url = f'http://api.weather.com/key="{api_key}"'
-
+api_key = ""  # Get the api key from your www.weatherapi.com account. If you do not have an api key yet, please see the instructions in README.md
+url = f"http://api.weather.com/key={api_key}"
 response = requests.get(url)
 
 # TODO TechWomen Exercise 1:  Print the output of the response from the weather api

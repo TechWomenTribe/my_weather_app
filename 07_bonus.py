@@ -12,11 +12,11 @@ import requests
 import os
 import emoji
 
-app = Flask(__name__, template_folder='template')
+app = Flask(__name__, template_folder="template")
 
 api_key = ""  # add your api key here
 city = "Istanbul"
-url = f'http://api.weatherapi.com/v1/current.json?key={api_key}&q={city}]&aqi=no'
+url = f"http://api.weatherapi.com/v1/current.json?key={api_key}&q={city}]&aqi=no"
 
 response = requests.get(url)
 

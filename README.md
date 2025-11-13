@@ -82,24 +82,6 @@ pip install -r requirements.txt
 
 <hr></hr>
 
-## Usage
-### Set your API key as an environment variable:
-```sh
-export WEATHER_API_KEY=your_api_key_here
-```
-### Run the app:
-```sh
-python app.py
-```
-
-### Example request:
-Open your browser or use curl:
-```sh
-curl "http://127.0.0.1:5000/weather?city=London"
-```
-
-<hr></hr>
-
 ## Troubleshooting
 - Module not found: Make sure your virtual environment is activated and dependencies are installed.
 - Invalid API key: Double-check your API key and ensure it is set as an environment variable.
